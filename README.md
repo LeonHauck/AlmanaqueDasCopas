@@ -23,7 +23,7 @@ Cada jogo, cada gol, cada campeão.
 
 ## 📊 Em números
 
-| 🏆 Copas | ⚽ Jogos | 🥅 Gols | 🌍 Seleções | 👟 Artilheiros | 🏟️ Estádios |
+| 🏆 Copas | ⚽ Jogos | 🥅 Gols | 🌍 Seleções | 👟 Goleadores | 🏟️ Estádios |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | **23** | **1.068** | **3.028** | **88** | **1.543** | **208** |
 
