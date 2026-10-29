@@ -1,0 +1,74 @@
+<!doctype html>
+<!-- Arte da miniatura de compartilhamento (LinkedIn, WhatsApp etc.), 1200x627.
+     Para regerar: abra com Chrome headless em 1200x627 e salve em assets/img/og-image.png -->
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Bebas+Neue&family=Inter:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1200px; height: 627px; overflow: hidden; }
+  body {
+    background:
+      radial-gradient(900px 420px at 78% 40%, rgba(51,209,122,.20), transparent 70%),
+      radial-gradient(600px 300px at 10% 0%, rgba(245,197,66,.10), transparent 70%),
+      repeating-linear-gradient(90deg, #0d2a1a 0 100px, #0b2416 100px 200px);
+    color: #eef5ef; font-family: Inter, sans-serif; position: relative;
+  }
+  .lines { position: absolute; right: -60px; top: 50%; transform: translateY(-50%); width: 700px; opacity: .13; }
+  .wrap { position: absolute; inset: 0; padding: 56px 64px 0; display: grid; grid-template-columns: 1.15fr 1fr; gap: 40px; }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .brand img { width: 58px; height: 58px; }
+  .kicker { font: 700 18px "Barlow Condensed"; letter-spacing: .22em; text-transform: uppercase; color: #f5c542; }
+  h1 { font: 400 128px/0.86 "Bebas Neue"; letter-spacing: .01em; margin-top: 26px; }
+  h1 span { color: #f5c542; display: block; }
+  .sub { margin-top: 20px; font-size: 25px; color: #c3d3c8; font-weight: 500; }
+  .stats { display: flex; gap: 32px; margin-top: 30px; }
+  .stat b { display: block; font: 400 52px/1 "Bebas Neue"; }
+  .stat small { font: 700 15px "Barlow Condensed"; letter-spacing: .14em; text-transform: uppercase; color: #8ba596; }
+  .stat:first-child b { color: #f5c542; }
+  .champs { align-self: center; margin-top: -20px; background: linear-gradient(160deg, rgba(245,197,66,.14), rgba(11,29,19,.92) 45%);
+    border: 1.5px solid rgba(245,197,66,.4); border-radius: 22px; padding: 22px 26px; box-shadow: 0 20px 50px rgba(0,0,0,.45); }
+  .champs h2 { font: 700 17px "Barlow Condensed"; letter-spacing: .2em; text-transform: uppercase; color: #f5c542; margin-bottom: 10px; }
+  .row { display: grid; grid-template-columns: 46px 1fr auto; align-items: center; gap: 14px; padding: 7px 0; border-top: 1px solid rgba(255,255,255,.07); }
+  .row:first-of-type { border-top: 0; }
+  .row img { width: 46px; height: 31px; object-fit: cover; border-radius: 4px; box-shadow: 0 0 0 1px rgba(255,255,255,.15); }
+  .row span { font: 700 25px "Barlow Condensed"; text-transform: uppercase; letter-spacing: .02em; }
+  .row i { font-style: normal; color: #f5c542; font-size: 19px; letter-spacing: 2px; }
+  .bar { position: absolute; left: 0; right: 0; bottom: 0; height: 58px; background: #040c08; border-top: 3px solid #1f7a3f;
+    display: flex; align-items: center; justify-content: space-between; padding: 0 64px; font: 600 20px "Barlow Condensed"; letter-spacing: .06em; color: #c3d3c8; }
+  .bar b { color: #f5c542; font-weight: 700; }
+</style>
+</head>
+<body>
+  <svg class="lines" viewBox="0 0 600 400" fill="none" stroke="#fff" stroke-width="2.5">
+    <rect x="10" y="10" width="580" height="380"/><line x1="300" y1="10" x2="300" y2="390"/>
+    <circle cx="300" cy="200" r="60"/><rect x="10" y="100" width="90" height="200"/><rect x="500" y="100" width="90" height="200"/>
+  </svg>
+  <div class="wrap">
+    <div>
+      <div class="brand"><img src="../assets/img/favicon.svg" alt=""><span class="kicker">1930 — 2026 · 23 Copas</span></div>
+      <h1>Almanaque<span>das Copas</span></h1>
+      <p class="sub">Toda a história da Copa do Mundo: cada jogo, cada gol, cada campeão.</p>
+      <div class="stats">
+        <div class="stat"><b>23</b><small>Copas</small></div>
+        <div class="stat"><b>1.068</b><small>Jogos</small></div>
+        <div class="stat"><b>3.028</b><small>Gols</small></div>
+        <div class="stat"><b>88</b><small>Seleções</small></div>
+      </div>
+    </div>
+    <div class="champs">
+      <h2>Os campeões</h2>
+      <div class="row"><img src="https://flagcdn.com/br.svg" alt=""><span>Brasil</span><i>★★★★★</i></div>
+      <div class="row"><img src="https://flagcdn.com/it.svg" alt=""><span>Itália</span><i>★★★★</i></div>
+      <div class="row"><img src="https://flagcdn.com/de.svg" alt=""><span>Alemanha</span><i>★★★★</i></div>
+      <div class="row"><img src="https://flagcdn.com/ar.svg" alt=""><span>Argentina</span><i>★★★</i></div>
+      <div class="row"><img src="https://flagcdn.com/uy.svg" alt=""><span>Uruguai</span><i>★★</i></div>
+      <div class="row"><img src="https://flagcdn.com/fr.svg" alt=""><span>França</span><i>★★</i></div>
+      <div class="row"><img src="https://flagcdn.com/es.svg" alt=""><span>Espanha</span><i>★★</i></div>
+      <div class="row"><img src="https://flagcdn.com/gb-eng.svg" alt=""><span>Inglaterra</span><i>★</i></div>
+    </div>
+  </div>
+  <div class="bar"><span>leonhauck.github.io/<b>AlmanaqueDasCopas</b></span><span>Desenvolvido por <b>Leon Hauck</b></span></div>
+</body>
+</html>
